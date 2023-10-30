@@ -1,5 +1,8 @@
-@use './colours' as *;
-
+@use "colors" as c;
+@use "animations";
+@use "small" as s;
+@use "medium" as m;
+@use "large" as l;
 
 *,
 *::before,
@@ -9,8 +12,15 @@
 	padding: 0;
 }
 
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: "Raleway", sans-serif;
-	font-family: "Cinzel", serif;
+	font-size: 1.6rem;
+	// font-family: "Cinzel", serif;
+	color: $white;
+	background-color: $dark;
 }
