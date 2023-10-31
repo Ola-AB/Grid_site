@@ -20,7 +20,17 @@ html {
 body {
 	font-family: "Raleway", sans-serif;
 	font-size: 1.6rem;
-	// font-family: "Cinzel", serif;
+
 	color: $white;
 	background-color: $dark;
 }
+
+//HEADER
+
+h1.company-name {
+	margin-bottom: 0.5em;
+	font-size: 3rem;
+	font-family: "Cinzel", serif;
+	color: $gold;
+}
+
